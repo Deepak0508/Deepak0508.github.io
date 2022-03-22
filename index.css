@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	padding-top:100px;
+	padding-bottom: 100px;
+	background-image: url("header.png");
+	background-size: cover;
+}
+.header div{
+	width: 700px;
+	
+	background-color: rgba(255, 255, 255, 0.7);
+}
+h1,h3,h5,h6,p,a,h2{
+	font-family: sans-serif;
+}
+.social i{
+	font-size: 50px !important;
+	padding: 10px;
+}
+.qualification{
+	width: 100%;
+	padding: 40px;
+	float: left;
+}
+.qualification div,.hobby .box{
+	width: 33%;
+	float: left;
+}
+.qualification i,.skills i, .project i{
+	font-size: 60px !important;
+}
+.skills, .project,.hobby{
+	width: 100%;
+	padding: 0px 60px 40px 60px;
+	float: left;
+}
+
+.skills .box, .project .box{
+	width: 50%;
+	float: left;
+}
+.hobby .box{
+	padding: 15px;
+}
+.hobby .box div{
+	border: 1px solid #ddd;
+	box-shadow: 0px 5px 5px #ddd;
+	padding: 5px 20px 20px 20px;
+	border-radius: 5px;
+}
+
+.footer{
+	padding: 20px;
+}
+.footer p{
+	letter-spacing: 2px;
+}
